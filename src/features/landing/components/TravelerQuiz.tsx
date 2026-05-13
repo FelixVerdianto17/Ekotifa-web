@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
-import { quizQuestions, travelerTypes } from '@/data/quizData';
+import { quizQuestions, travelerTypes } from '@/data/QuizData';
 import { ArrowRight, RotateCcw } from 'lucide-react';
 
 export default function TravelerQuiz() {
@@ -63,7 +63,8 @@ export default function TravelerQuiz() {
                 <h4 className="text-xl md:text-2xl font-bold mb-8">{quizQuestions[currentStep].question}</h4>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {quizQuestions[currentStep].options.map((opt, i) => (
+                  {/* Tipe data opt dan i sudah dideklarasikan secara eksplisit di sini */}
+                  {quizQuestions[currentStep].options.map((opt: { text: string; type: string }, i: number) => (
                     <button
                       key={i}
                       onClick={() => handleAnswer(opt.type)}

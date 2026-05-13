@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, MapPin, Calendar, Target, CheckCircle2, Clock } from 'lucide-react';
+import { ArrowLeft, MapPin, Target, CheckCircle2, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { programsData } from '@/data/programs';
 

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowLeft, ArrowRight, Zap, MapPin } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { programsData } from '@/data/programs';

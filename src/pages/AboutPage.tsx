@@ -14,7 +14,7 @@ const teamMembers: TeamMember[] = [
     id: '1',
     name: 'Afro',
     role: 'Founder & CEO',
-    imageUrl: '/images/team-placeholder-1.jpg',
+    imageUrl: '/images/profile1.jpg',
   },
   {
     id: '2',
@@ -64,7 +64,7 @@ export default function AboutPage() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2 }}
           className="h-[500px] w-full overflow-hidden rounded-[2rem] bg-zinc-100"
-        >
+        > 
           <img 
             src="/images/About.jpg" 
             alt="Kegiatan Konservasi Ekotifa" 

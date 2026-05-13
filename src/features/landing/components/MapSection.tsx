@@ -1,7 +1,6 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 // Fix icon leaflet yang sering hilang saat build
